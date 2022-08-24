@@ -86,6 +86,7 @@
       </video>
     </div>
 
+    
     <!-- -------- container-2 -------  -->
 
     <div class="container-2">
@@ -181,6 +182,22 @@
   </div>
 </div> 
 
+<!-- -------- slider ------  -->
+<div class="silder-1">
+
+
+<div class="range">
+  <div class="sliderValue">
+    <span>100</span>
+  </div>
+<div class="field">
+    <div class="value left">0$</div>
+<input type="range" min="10" max="200" value="100" steps="1">
+    <div class="value right">200$</div>
+</div>
+</div>
+</div>
+
  <!-- ------------ container-5 ------------  -->
 
      <div class="container-5">
@@ -271,6 +288,26 @@
 </div>
 </div> 
 
+
+<!-- ------ slider ------  -->
+
+
+<div class="silder-1">
+
+
+  <div class="range">
+    <div class="sliderValue">
+      <span>100</span>
+    </div>
+  <div class="field">
+      <div class="value left">0$</div>
+  <input type="range" min="10" max="200" value="100" steps="1">
+      <div class="value right">200$</div>
+  </div>
+  </div>
+  </div>
+
+
     <!-- --------- container-9 ---------  -->
 
      <div class="container-9">
@@ -312,6 +349,56 @@
   </div>
   <h2>Immaculate. Impartial. [ESX]</h2>
 </div> 
+
+
+
+<div class="img-slider-1">
+  
+
+<!--image slider start-->
+<div class="slider">
+  <div class="slides">
+    <!--radio buttons start-->
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    <!--radio buttons end-->
+    <!--slide images start-->
+    <div class="slide first">
+      <img src="images/1" alt="">
+    </div>
+    <div class="slide">
+      <img src="images/2" alt="">
+    </div>
+    <div class="slide">
+      <img src="images/3" alt="">
+    </div>
+    <div class="slide">
+      <img src="images/4" alt="">
+    </div>
+    <!--slide images end-->
+    <!--automatic navigation start-->
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+    </div>
+    <!--automatic navigation end-->
+  </div>
+  <!--manual navigation start-->
+  <div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+  </div>
+  <!--manual navigation end-->
+</div>
+<!--image slider end-->
+
+</div>
 
     <!-- ---------- container-11 -----------  -->
 
@@ -399,6 +486,18 @@
     </div>
   </div>
 </div> 
+
+<script type="text/javascript">
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+      counter = 1;
+    }
+  }, 5000);
+  </script>
+
     <script src="script.js"></script>
   </body>
 </html>
