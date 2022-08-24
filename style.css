@@ -1247,7 +1247,7 @@ img {
 .burger-menu ul li {
   padding: 1rem 0;
   margin-left: 48px;
-  font-family: "DynaPuff", cursive;
+  /* font-family: "DynaPuff", cursive; */
   font-weight: 600;
   cursor: pointer;
   border-radius: 4px;
@@ -1697,7 +1697,7 @@ i {
 }
 @media screen and (max-width: 370px) {
   .second-page-2 img {
-    max-width: 270px;
+    max-width: 300px;
   }
 
   .second-page-1 {
