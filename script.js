@@ -11,7 +11,7 @@ function onClickMenu2() {
 }
 
 function defaultDisplay() {
-  if (window.innerWidth > 960) {
+  if (window.innerWidth > 997) {
     document.querySelector(".burger-menu").style.display = "none";
     document.querySelector(".burger").style.display = "none";
     document.querySelector(".cross").style.display = "none";
